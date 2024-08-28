@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "thumb": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "media": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "year": {
+      "type": "string"
+    },
+    "tags": {
+      "displayName": "tags",
+      "type": "component",
+      "repeatable": true,
+      "component": "tags.tags"
+    },
+    "type": {
+      "type": "string"
+    },
+    "medium": {
+      "type": "text"
+    },
+    "image": {
+      "displayName": "media2",
+      "type": "component",
+      "repeatable": true,
+      "component": "media2.media2"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "singlepage": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

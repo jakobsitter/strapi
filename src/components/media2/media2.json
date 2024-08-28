@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_media2_media2s",
+  "info": {
+    "displayName": "media2",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

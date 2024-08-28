@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exhibitions",
+  "info": {
+    "singularName": "exhibition",
+    "pluralName": "exhibitions",
+    "displayName": "exhibitions",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "gallery": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "curator": {
+      "type": "string"
+    },
+    "full": {
+      "type": "text"
+    }
+  }
+}
